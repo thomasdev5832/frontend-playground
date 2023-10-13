@@ -1,0 +1,19 @@
+body {
+    background-color: #000;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 4px;
+    width: 100%;
+}
+
+.grid-item {
+    background-color: greenyellow;
+    height: 60px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
