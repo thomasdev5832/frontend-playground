@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+}
+
+.container {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    gap: 4px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    background-color: greenyellow;
+    font-size: 24px;
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    flex-basis: 100px;
+}
+
+.flex-item:nth-child(even) {
+    /* background-color: red; */
+}
